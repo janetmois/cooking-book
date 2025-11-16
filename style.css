@@ -1,0 +1,257 @@
+@import url("http://fonts.cdnfonts.com/css/bodoniflf");
+.navi {
+display: flex;
+justify-content: flex-end;
+background-color: #debc97;
+padding: 10px;
+font-size: 20px;
+font-family: "BodoniFLF";
+}
+.item {
+color: #602c2f;
+padding: 10px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.item:hover {
+font-weight: bolder;
+transition-duration: 2s;
+}
+.first {
+margin-right: auto;
+}
+.head {
+display: flex;
+justify-content: center;
+opacity: 1;
+}
+h1 {
+color: #602c2f;
+font-size: 45px;
+font-family: "BodoniFLF";
+}
+#MainVideo {
+width: 100%;
+}
+.text,
+h2 {
+color: #602c2f;
+font-size: 30px;
+font-family: "BodoniFLF";
+}
+.girls {
+display: flex;
+padding: 10px;
+justify-content: space-evenly;
+}
+.baby:hover {
+border-radius: 70px;
+transition-duration: 2s;
+}
+.text {
+text-transform: capitalize;
+}
+.text:hover {
+color: #ea412c;
+transition-duration: 2s;
+}
+.fortxt {
+flex-direction: column;
+align-self: center;
+}
+h2:hover {
+color: #ea412c;
+transition-duration: 2s;
+}
+.story {
+display: flex;
+align-self: auto;
+padding: 15px;
+}
+.story {
+margin-top: -30px;
+color: #602c2f;
+font-size: 20px;
+font-family: "BodoniFLF";
+}
+.story:hover {
+color: #ea412c;
+transition-duration: 10s;
+}
+.label {
+display: flex;
+flex-direction: column;
+}
+.label {
+font-size: 20px;
+font-family: "BodoniFLF";
+color: #602c2f;
+flex: 1;
+}
+.btn {
+display: flex;
+justify-content: center;
+}
+.cta {
+background-color: #fceed0;
+color: #602c2f;
+text-transform: uppercase;
+padding: 10px;
+font-size: 15px;
+font-family: "BodoniFLF";
+border: #fceed0;
+border-radius: 10px;
+cursor: pointer;
+flex: 1;
+}
+.cta:hover {
+background-color: #debc97;
+font-weight: bolder;
+transition-duration: 2s;
+}
+.meals {
+display: flex;
+justify-content: space-evenly;
+padding: 0;
+}
+li {
+list-style: none;
+}
+.menu {
+font-size: 25px;
+font-family: "BodoniFLF";
+color: #602c2f;
+padding: 15px;
+}
+.one:hover {
+color: #f5c06c;
+border: 1px solid #dabb9a;
+border-radius: 20px;
+transition-duration: 1s;
+}
+.two:hover {
+color: #ea412c;
+border: 1px solid #dabb9a;
+border-radius: 20px;
+transition-duration: 1s;
+}
+.three:hover {
+color: #4a5d13;
+border: 1px solid #dabb9a;
+border-radius: 20px;
+transition-duration: 1s;
+}
+.four:hover {
+color: #e89585;
+border: 1px solid #dabb9a;
+border-radius: 20px;
+transition-duration: 1s;
+}
+.none {
+text-decoration: none;
+}
+.book {
+display: flex;
+}
+.table {
+flex: 1;
+border-radius: 15px;
+}
+.block {
+padding: 50px;
+}
+body {
+font-family: "BodoniFLF";
+background-color: #debc97;
+}
+body:hover {
+background-color: #fceed0;
+transition-duration: 2s;
+}
+.sp {
+text-decoration: none;
+color: #602c2f;
+}
+.up {
+background-color: #fceed0;
+text-transform: uppercase;
+padding: 10px;
+font-size: 15px;
+font-family: "BodoniFLF";
+border: #fceed0;
+border-radius: 10px;
+cursor: pointer;
+}
+.up:hover {
+background-color: #debc97;
+font-weight: bolder;
+transition-duration: 2s;
+}
+@media all and (max-width: 800px) {
+.nav {
+display: flex;
+justify-content: flex-end;
+}
+.girls {
+flex-direction: column;
+}
+.menu {
+    font-size: 20px;
+    padding: 7px;
+}
+}
+@media all and (max-width: 500px) {
+nav {
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+}
+.navi {
+padding: 0;
+font-size: 14px;
+}
+.girls {
+flex-direction: row;
+}
+.baby,
+.table {
+width: 50%;
+}
+.menu {
+font-size: 18px;
+padding: 5px;
+}
+.first {
+margin-right: auto;
+}
+h1 {
+font-size: 26px;
+}
+.text,
+h2 {
+font-size: 20px;
+}
+.story {
+font-size: 18px;
+padding: 10px;
+}
+h2 {
+height: smaller;
+}
+.label {
+font-size: 16px;
+}
+.sp,
+.cta,
+.up {
+font-size: 10px;
+padding: 5px;
+}
+.meals {
+display: flex;
+flex-wrap: wrap;
+}
+.item {
+padding: 5px;
+}
+}

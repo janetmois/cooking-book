@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>👩🏽‍🍳 Cooking book</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="http://fonts.cdnfonts.com/css/bodoniflf" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav id="Start" class="navi">
+      <a class="item first" href="#History">History</a>
+      <a class="item" href="#Book">Book</a>
+      <a class="item" href="#Story">Write me</a>
+      <a class="item" href="mailto:janet6@yandex.ru">Have a question?</a>
+    </nav>
+    <div class="head">
+      <h1><a id="heading"></a></h1>
+    </div>
+    <video autoplay muted loop id="MainVideo" playsinline>
+      <source
+        src="writer.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <br />
+    <div data-aos="flip-left" data-aos-delay="300" data-aos-duration="2500">
+      <div class="girls">
+        <div class="fortxt">
+          <p class="text">Made with love</p>
+          <p class="text">Made for you</p>
+        </div>
+        <img
+          class="baby"
+          src="withmom.jpeg"
+          alt="Mom_and_baby"
+        />
+      </div>
+    </div>
+    <br />
+    <div data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000">
+      <div class="head">
+        <h2><a id="History">History</a></h2>
+      </div>
+    </div>
+    <div class="story">
+      <p>
+        Often, women experience strange thoughts or desires during pregnancy.
+        They're simply overwhelmed: a watermelon in the middle of the night in December, or an urgent urge to sniff
+        paint or chew on chalk... but that's not me :) Naming my daughter after a
+        Twilight character... yeah, that sounds familiar :) But clever thoughts sometimes come to them, too. <br />
+        So, while waiting for my beloved Maria, I decided to create a book of my recipes for her...
+      </p>
+    </div>
+    <div data-aos="zoom-in" data-aos-delay="300" data-aos-duration="2000">
+      <div class="head">
+        <h2><a id="Book">Book</a></h2>
+      </div>
+    </div>
+    <ul class="meals">
+      <li><a class="none menu one" href="baking.html">Breakfast</a></li>
+      <li><a class="none menu two" href="main course.html">Main course</a></li>
+      <li><a class="none menu three" href="salad.html">Salad</a></li>
+      <li><a class="none menu four" href="soup.html">Soup</a></li>
+      <li><a class="none menu one" href="baking.html">Baking</a></li>
+      <li><a class="none menu four" href="desserts.html">Desserts</a></li>
+      <li><a class="none menu two" href="beverages.html">Beverages</a></li>
+    </ul>
+    <div class="book">
+      <img
+        class="table"
+        src="table.jpeg"
+        width="600px"
+        alt="Menu"
+      />
+    </div>
+    <br />
+    <form>
+      <div data-aos="zoom-in" data-aos-duration="3000">
+        <div class="head">
+          <p class="text" id="Story">Tell us your story</p>
+        </div>
+      </div>
+      <div class="label">
+        <label>Your name</label>
+        <input type="text" />
+      </div>
+      <div class="label">
+        <label class="label">Your story</label>
+        <input class="block" type="text" />
+      </div>
+      <br />
+      <div class="btn">
+        <button type="submit" class="cta">Send</button>
+      </div>
+    </form>
+    <br />
+    <div class="btn">
+      <button type="button" class="up"><a class="sp" href="#Start">UP</a></button>
+    </div>
+    <br />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

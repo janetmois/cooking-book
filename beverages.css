@@ -1,0 +1,148 @@
+@import url("http://fonts.cdnfonts.com/css/bodoniflf");
+.nav {
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+}
+.nav {
+background-color: #debc97;
+padding: 10px;
+font-size: 20px;
+font-family: "BodoniFLF";
+}
+.item {
+color: #602c2f;
+padding: 10px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.item:hover {
+font-weight: bolder;
+transition-duration: 2s;
+}
+.first {
+margin-right: auto;
+}
+.about {
+display: flex;
+justify-content: space-evenly;
+margin: auto;
+}
+.cup {
+display: flex;
+height: 100vh;
+border-radius: 50%;
+}
+.article {
+font-family: "BodoniFLF";
+font-family: cursive;
+align-self: center;
+padding: 10px;
+font-style: italic;
+font-size: 25px;
+color: #602c2f;
+}
+.one {
+font-style: italic;
+font-family: "BodoniFLF";
+text-align: center;
+color: #602c2f;
+font-size: 30px;
+}
+p {
+left: 40px;
+right: 40px;
+font-family: "BodoniFLF";
+font-size: 20px;
+color: #602c2f;
+padding: 10px;
+margin-left: 30px;
+margin-right: 30px;
+text-align: justify;
+line-height: 1.5;
+text-indent: 5%;
+}
+hr {
+margin: auto 50px;
+padding: 0;
+border: none;
+height: 50px;
+border-bottom: #602c2f 1px solid;
+box-shadow: 0 20px 20px -20px #684e4f;
+}
+.text {
+color: #602c2f;
+font-size: 20px;
+font-family: "BodoniFLF";
+}
+ul,
+li {
+margin-left: 50px;
+margin-right: 50px;
+padding: 0;
+}
+.light:hover {
+color: #ea412c;
+transition-duration: 2s;
+}
+.light {
+color: #602c2f;
+padding: 10px;
+text-decoration: none;
+}
+body {
+margin: 0;
+width: 100%;
+height: max-content;
+background-image: url(https://cdn.glitch.me/d84a02fd-faba-47da-939b-c8c17e976cc0%2FBever.png?v=1638616127634);
+background-size: cover;
+}
+@media all and (max-width: 1100px) {
+.nav {
+display: flex;
+justify-content: flex-end;
+}
+.cup {
+width: 60%;
+height: auto;
+}
+}
+@media all and (max-width: 800px) {
+.nav {
+display: flex;
+justify-content: flex-end;
+}
+.about {
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+margin: 0;
+}
+.cup {
+display: flex;
+align-self: center;
+width: 70%;
+height: auto;
+}
+}
+@media all and (max-width: 500px) {
+.nav {
+display: flex;
+justify-content: flex-end;
+}
+.item {
+font-size: 14px;
+}
+.article {
+font-size: 18px;
+}
+.one {
+font-size: 18px;
+margin: 20px 10px;
+padding: 5px;
+}
+p,
+.text {
+font-size: 16px;
+}
+}
