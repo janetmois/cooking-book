@@ -1,2 +1,0 @@
-# cooking-book
-recipies app
